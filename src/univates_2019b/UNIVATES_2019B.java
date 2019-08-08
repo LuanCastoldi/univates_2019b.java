@@ -3,6 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+/*
+   autor: Luan Castoldi
+*/
 package univates_2019b;
 
 import java.util.Scanner;
