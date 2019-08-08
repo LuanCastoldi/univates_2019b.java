@@ -15,6 +15,7 @@ public class Funcoes {
     
 //método que soma 2 números
     /*
+    autor Luan 08/08/19
         modificador de acesso (public, private)
         public = torna o método disponível para todo o projeto
         static = Não faz-se necessário instanciar a classe para utilizar o método/função
