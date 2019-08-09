@@ -21,19 +21,42 @@ public class UNIVATES_2019B {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("MAIN PRINCIPAL");
+        
+         Pessoa pessoa1 = new Pessoa(); 
+  Pessoa pessoa2 = new Pessoa();
+  
+  pessoa1.setCodigo(1);
+  pessoa1.setNome("Luan");
+  pessoa1.setEndereco("Capitão - RS");
+  pessoa1.setTelefone("51 993554823");
+  
+  
+  System.out.println("Pessoa = " + pessoa1.getCodigo() + "\n" + "Nome = " + pessoa1.getNome() + "\n" + "Endereço = " + pessoa1.getEndereco()+ "\n" + "Telefone = " + pessoa1.getTelefone()+ "\n" );
+        
+  pessoa2.setCodigo(2);
+  pessoa2.setNome("Renan");
+  pessoa2.setEndereco("Lajeado - RS ");
+  pessoa2.setTelefone("51 992551233");
+  
+ System.out.println("Pessoa = " + pessoa2.getCodigo() + "\n" + "Nome = " + pessoa2.getNome() + "\n" + "Endereço = " + pessoa2.getEndereco()+ "\n" + "Telefone = " + pessoa2.getTelefone()+ "\n" );     
+        
+         
+        
+        
+        
+        /*System.out.println("MAIN PRINCIPAL");
         soma(2, 3);
         subtrai(10, 5);
 
         //teste condicional
-        /*if (2 == 3) {
+        if (2 == 3) {
             System.out.println("2 É IGUAL A 2 ");
         } else {
             System.out.println("2 NÃO É IGUAL A 2");
-        }*/
+        }
         
         //mais teste
-        
+       
         String var1 = "JUCA"; 
         String var2 = "JUCA";
         
@@ -78,5 +101,7 @@ public class UNIVATES_2019B {
         int result = num1 - num2;
         System.out.println("Resultado da subtração = " + result);
 
-    }
+        
+    }*/
+}
 }
