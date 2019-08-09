@@ -5,6 +5,8 @@
  */
 package univates_2019b;
 
+import java.util.Random;
+
 
 
 /**
@@ -12,6 +14,9 @@ package univates_2019b;
  * @author luan.castoldi
  */
 public class Funcoes {
+   
+    
+   
     
 //método que soma 2 números
     /*
@@ -21,8 +26,9 @@ public class Funcoes {
         static = Não faz-se necessário instanciar a classe para utilizar o método/função
         int = é o retorno do método (void = método sem retorno)
         somarNumeros = nome do método
+   
     */
-    public static int somarNumeros(int valor1, int valor2){
+   /* public static int somarNumeros(int valor1, int valor2){
         int resultado = valor1 + valor2;
           
         return resultado;
@@ -77,7 +83,6 @@ public class Funcoes {
         //a linha de código a seguir remove a última virgula da String
         resultado = resultado.substring(0, resultado.length() - 1);
         return resultado;
-    }
+    }*/
    
-    
 }
