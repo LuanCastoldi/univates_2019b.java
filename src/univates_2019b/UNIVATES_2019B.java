@@ -9,6 +9,7 @@
 */
 package univates_2019b;
 
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -22,33 +23,59 @@ public class UNIVATES_2019B {
      */
     public static void main(String[] args) {
         
-         Pessoa pessoa1 = new Pessoa(); 
+       
+   
+        /*
+ //instância um objeto da classe Random usando o construtor básico
+//Exige importação da classe java.util.Random
+Random gerador = new Random();
+ 
+//imprime sequência de 10 números inteiros aleatórios entre 1 e 5
+ for (int i = 0; i < 10; i++) {
+ System.out.println(gerador.nextInt(5) + 1);
+}*/
+      
+     
+    /*    
+        
+     int numeros = 1;
+     String[] nomes = {"Juca", "Bala", "Pedro"};
+     
+     */
+     //
+
+  Pessoa pessoa1 = new Pessoa(); 
   Pessoa pessoa2 = new Pessoa();
   
   pessoa1.setCodigo(1);
   pessoa1.setNome("Luan");
   pessoa1.setEndereco("Capitão - RS");
   pessoa1.setTelefone("51 993554823");
+  pessoa1.setValorConta(500);
+  
+        System.out.println(pessoa1);
   
   
-  System.out.println("Pessoa = " + pessoa1.getCodigo() + "\n" + "Nome = " + pessoa1.getNome() + "\n" + "Endereço = " + pessoa1.getEndereco()+ "\n" + "Telefone = " + pessoa1.getTelefone()+ "\n" );
+  //System.out.println("Pessoa = " + pessoa1.getCodigo() + "\n" + "Nome = " + pessoa1.getNome() + "\n" + "Endereço = " + pessoa1.getEndereco()+ "\n" + "Telefone = " + pessoa1.getTelefone()+ "\n" );
         
   pessoa2.setCodigo(2);
   pessoa2.setNome("Renan");
   pessoa2.setEndereco("Lajeado - RS ");
   pessoa2.setTelefone("51 992551233");
+  pessoa2.setValorConta(500);
   
- System.out.println("Pessoa = " + pessoa2.getCodigo() + "\n" + "Nome = " + pessoa2.getNome() + "\n" + "Endereço = " + pessoa2.getEndereco()+ "\n" + "Telefone = " + pessoa2.getTelefone()+ "\n" );     
+  System.out.println(pessoa2);
+  
+  
+  
+ //System.out.println("Pessoa = " + pessoa2.getCodigo() + "\n" + "Nome = " + pessoa2.getNome() + "\n" + "Endereço = " + pessoa2.getEndereco()+ "\n" + "Telefone = " + pessoa2.getTelefone()+ "\n" );     
         
-         
-        
-        
-        
-        /*System.out.println("MAIN PRINCIPAL");
+   /*       
+    System.out.println("MAIN PRINCIPAL");
         soma(2, 3);
         subtrai(10, 5);
 
-        //teste condicional
+       //teste condicional
         if (2 == 3) {
             System.out.println("2 É IGUAL A 2 ");
         } else {
@@ -101,7 +128,8 @@ public class UNIVATES_2019B {
         int result = num1 - num2;
         System.out.println("Resultado da subtração = " + result);
 
-        
+      
     }*/
 }
 }
+
